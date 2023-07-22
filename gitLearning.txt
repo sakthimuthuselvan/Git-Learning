@@ -1,6 +1,6 @@
 
 SHOW ALL BRANCH : git branch
-Create New Branch Using Terminal:
+Create New Branch Create Using Terminal:
 
 	1) git status
 	2) git branch new-feature ==> branch created
@@ -8,6 +8,10 @@ Create New Branch Using Terminal:
 			(or)
 		git checkout -b new-feature
 
+Push New Branch in Terminal:
+	1) git add .
+	2) git commit -m "Your commit message here"
+	3) git push origin new-feature
 
 NORAML PUSH:
 	1) git status
