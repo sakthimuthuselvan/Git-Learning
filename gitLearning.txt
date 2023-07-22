@@ -1,0 +1,16 @@
+
+SHOW ALL BRANCH : git branch
+Create New Branch Using Terminal:
+
+	1) git status
+	2) git branch new-feature ==> branch created
+	3) git checkout new-feature ==> switch to branch
+			(or)
+		git checkout -b new-feature
+
+
+NORAML PUSH:
+	1) git status
+	2) git add .
+	3) git commit -m "message"
+	4) git push
