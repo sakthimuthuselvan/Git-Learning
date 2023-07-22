@@ -1,7 +1,13 @@
 
 SHOW ALL BRANCH : git branch
-Create New Branch Create Using Terminal:
 
+NORAML PUSH:
+	1) git status
+	2) git add .
+	3) git commit -m "message"
+	4) git push
+
+Create New Branch Create Using Terminal:
 	1) git status
 	2) git branch new-feature ==> branch created
 	3) git checkout new-feature ==> switch to branch
@@ -13,8 +19,7 @@ Push New Branch in Terminal:
 	2) git commit -m "Your commit message here"
 	3) git push origin new-feature
 
-NORAML PUSH:
-	1) git status
-	2) git add .
-	3) git commit -m "message"
-	4) git push
+Git Pull On Master:
+	1) git checkout master
+	2) git pull origin master
+
